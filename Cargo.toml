@@ -3,4 +3,4 @@ resolver = "2"
 members = ["iced_anim", "iced_anim_derive", "examples"]
 
 [workspace.dependencies]
-iced = { git = "https://github.com/iced-rs/iced", branch = "master", features = ["advanced", "svg"] }
+iced = { git = "https://github.com/iced-rs/iced", rev = "983aafb24b7b5bfa95eab1efc38e9eb928137b27", features = ["advanced", "svg"] }
